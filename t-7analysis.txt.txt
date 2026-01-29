@@ -1,0 +1,10 @@
+SQL Injection Test:
+The application accepted unsanitized input during login testing.
+This indicates improper input validation.
+
+XSS Test:
+User input was reflected back in the response.
+This may allow execution of malicious scripts.
+
+Overall Observation:
+The application is intentionally vulnerable and useful for learning security testing.
